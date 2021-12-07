@@ -1,0 +1,67 @@
+body {
+	margin: 0;
+	padding: 0;
+	max-height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	position: relative;
+}
+img {
+	width: 100%;
+	height: auto;
+}
+body {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	flex-direction: row;
+	text-align: center;
+}
+p {
+	margin: 0 auto;
+	margin-bottom: 10px;
+}
+.flower {
+	max-width: 100px;
+	width: 100%;
+	height: auto;
+}
+.car {
+	max-width: 100px;
+	width: 100%;
+	height: auto;
+}
+.numberBox {
+	height: 100px;
+	width: 50px;
+	border: 1px dotted black;
+	border-radius: 20px;
+	display: flex;
+	justify-content: space-around;
+	align-content: center;
+	margin-right: 15px;
+	line-height: 100px;
+}
+.disableNumber {
+	cursor: not-allowed;
+	background: rgba(186, 43, 43, 0.5);
+	color: red;
+}
+td {
+	border: 1px solid orange;
+	text-align: center;
+	height: 50px;
+	width: 100px;
+	font-weight: 700;
+}
+table {
+	border-spacing: 0px;
+}
+.green {
+	color: green;
+}
+.win-cells {
+	background: green;
+	color: white;
+}
